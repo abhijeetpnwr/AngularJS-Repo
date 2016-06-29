@@ -1,7 +1,5 @@
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -290,6 +288,11 @@ p {
   top: -20px;
 }
 
+h2
+{
+	font-size: 20px;
+}
+
 .fh5co-post-prev,
 .fh5co-post-next {
   position: fixed;
@@ -359,16 +362,16 @@ p {
 }
 
 .fh5co-post-entry.single-entry .fh5co-article-title {
-  font-size: 80px;
+  font-size: 20px;
 }
 @media screen and (max-width: 992px) {
   .fh5co-post-entry.single-entry .fh5co-article-title {
-    font-size: 56px;
+    font-size: 10px;
   }
 }
 @media screen and (max-width: 768px) {
   .fh5co-post-entry.single-entry .fh5co-article-title {
-    font-size: 34px;
+    font-size: 10px;
   }
 }
 .fh5co-post-entry article {
@@ -413,7 +416,7 @@ p {
 }
 .fh5co-post-entry article h2 {
   font-family: "Playfair Display", times, serif;
-  font-size: 34px;
+  font-size: 20px;
   color: #000;
   margin-bottom: 30px;
 }
@@ -422,12 +425,12 @@ p {
 }
 @media screen and (max-width: 992px) {
   .fh5co-post-entry article h2 {
-    font-size: 26px;
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 768px) {
   .fh5co-post-entry article h2 {
-    font-size: 24px;
+    font-size: 10px;
     margin-bottom: 20px;
   }
 }
